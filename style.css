@@ -1,0 +1,52 @@
+
+.espacio_celda_1{
+    width:8.33% ;
+}
+.espacio_celda_2{
+    width:16.66%;
+}
+.espacio_celda_3{
+    width:25%;
+}
+.espacio_celda_4{
+    width:33.33%;
+}
+.espacio_celda_5{
+    width: 41.66%;
+}
+.espacio_celda_6{
+    width: 50%;
+}
+.espacio_celda_7{
+    width: 58.33%;
+}
+.espacio_celda_8{
+    width: 66.66%;
+}
+.espacio_celda_9{
+    width: 75%;
+}
+.espacio_celda_10{
+    width:83.33%;
+}
+.espacio_celda_11{
+    width:91.66%;
+}
+.espacio_celda_12{
+    width:100%;
+}
+
+.conten{
+    display: flex;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+}
+
+.ima{
+    height: 30%;
+    width: 33%;
+}
+.la{
+    display: inline;
+    background-color:salmon;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="espacio_celda_12" style="background-color: cadetblue" >
+    <div class="espacio_celda_6" style="background-color:yellowgreen" >
+        <div class="card">
+            <div class="card-body">
+                <form onsubmit="event.preventDefault(),updateProducts()">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">URL de imagen</label>
+                      <input type="text" class="form-control" id="URL">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre de producto</label>
+                        <input type="text" class="form-control" id="name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="name" class="form-label">Precio</label>
+                        <input type="text" class="form-control" id="Price">
+                      </div>
+             <button type="submit" class="btn btn-primary">Actualizar producto</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div> 
+
+
+
+
+<div class="espacio_celda_12" style="background-color: cadetblue" >
+    <div class="espacio_celda_6" style="background-color:crimson" >
+        <div class="card">
+            <div class="card-body">
+                <form onsubmit="event.preventDefault(),creatProducts()">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">URL de imagen</label>
+                      <input type="text" class="form-control" id="URLnew">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre de producto</label>
+                        <input type="text" class="form-control" id="nameNew">
+                      </div>
+                      <div class="mb-3">
+                        <label for="name" class="form-label">Precio</label>
+                        <input type="text" class="form-control" id="priceNew">
+                      </div>
+             <button type="submit" class="btn btn-primary">Crear producto</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+   
+   
+     <div id="conten_products" class="espacio_celda_12 conten">
+            
+         </div>
+
+      
+      
+      
+         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="./js.js"></script>
+    
+
+    
+
+
+</body>
+</html>
